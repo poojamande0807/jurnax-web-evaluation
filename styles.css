@@ -1,0 +1,144 @@
+body{
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Inter Tight, sans-serif';
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border: 1px solid gainsboro;
+padding: 5px;
+}
+.menu{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.app-name{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.subscribe{
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    padding: 0 5px;
+
+}
+.navbar-2{
+   text-align: center;
+}
+.middle-section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.navbar-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 10px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 30%
+}
+.btn{
+    border: 1px solid gainsboro;
+    padding: 6px 14px;
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.left-title{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 130%;
+    font-family: 'Inter Tight, sans-serif';
+
+}
+.left-info{
+    margin-top: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+    font-family: 'Inter Tight, sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.bottom-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.line{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    width: 14px;
+    height: 1px;
+}
+
+.right-section{
+    flex: 70%;
+
+}
+.right-section img{
+    width: 100%;
+    height: auto;
+}
+
+.cards-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.card-details{
+    margin: 15px;
+
+}
+.card-details img{
+
+    max-width: 100%;
+
+}
+
+.section-title{
+    grid-column-gap: 14px;
+    border-top: 1px solid #000;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.last-section-card{
+    width: auto;
+margin: 0 auto !important;
+}
+.fn-main{
+    background-color: #dae3ec;
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
